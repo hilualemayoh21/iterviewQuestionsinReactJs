@@ -8,8 +8,11 @@ import "./App.css";
 // import UserFinder from "./components/gihubuserfinder/UserFinder";
 // import AutoSearch from "./components/Search-autocomplete-with-api/AutoSearch";
 // import TicTalk from "./components/TicTalk/TicTalk";
-import FeatureFlagGlobalState from "./components/FeatureFlag/Context/FeatureFlagGlobalState";
-import FeatureFlag from "./components/FeatureFlag/FeatureFlag";
+// import FeatureFlagGlobalState from "./components/FeatureFlag/Context/FeatureFlagGlobalState";
+// import FeatureFlag from "./components/FeatureFlag/FeatureFlag";
+// import TestOutClose from "./components/CustomeUseContext/CloseOutofelement/TestOutClose";
+// import TestResponsive from "./components/CustomeUseContext/UseResponsive/TestResponsive";
+// import TestUseFetch from "./components/CustomeUseContext/UseFetch/TestUseFetch";
 // import ScrollIndicator from "./components/scrollbarindicotor/ScrollIndicator"
 // import Accordian from "./components/Accordians/Index";
 // import ColorGenerator from "./components/colorGenerator/index";
@@ -20,6 +23,8 @@ import FeatureFlag from "./components/FeatureFlag/FeatureFlag";
 // import { sideMenu } from "./components/treeview/data";
 // import QrCodeGenerator from "./components/QrCode/QrCodeGenerator";
 // import LightDarkMode from "./components/LightDarkMode.jsx/LightDarkMode";
+import ScrollTopAndBottom from "./components/ScrolltoTopandBottom/ScrollTopAndBottom"
+import ScrollToAny from "./components/ScrollToAnySection/ScrollToAny";
 function App() {
   return (
     <>
@@ -40,9 +45,14 @@ function App() {
       {/* <UserFinder/> */}
       {/* <AutoSearch/> */}
       {/* <TicTalk/> */}
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag/>
-        </FeatureFlagGlobalState>
+        </FeatureFlagGlobalState> */}
+        {/* <TestOutClose/> */}
+        {/* <TestResponsive/> */}
+        {/* <TestUseFetch/> */}
+        {/* <ScrollTopAndBottom/> */}
+        <ScrollToAny/>
         </>
    )}
   
